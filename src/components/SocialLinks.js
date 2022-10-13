@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLink, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          <FaLinkedin size={35} className="group-hover:text-blue-400" />
+          <FaLinkedin size={35} className="group-hover:text-blue-400" title="LinkedIn" aria-label="LinkedIn" />
         </>
       ),
       href: "https://www.linkedin.com/in/satyasainandigam/",
@@ -18,7 +18,7 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          <FaGithub size={35} className="group-hover:text-blue-400" />
+          <FaGithub size={35} className="group-hover:text-blue-400" title="GitHub" aria-label="GitHub" />
         </>
       ),
       href: "https://github.com/satyasai1709",
@@ -27,7 +27,12 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          <HiOutlineMail size={35} className="group-hover:text-blue-400" />
+          <HiOutlineMail
+            size={35}
+            className="group-hover:text-blue-400"
+            title="Email"
+            aria-label="Email"
+          />
         </>
       ),
       href: "mailto:foo@gmail.com",
@@ -39,6 +44,8 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill
             size={35}
             className="group-hover:text-blue-400"
+            title="Resume"
+            aria-label="Resume"
           />
         </>
       ),
@@ -50,21 +57,22 @@ const SocialLinks = () => {
     <div className="hidden lg:flex flex-col top-[30%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, downolad }) => {
-         return (
-          <li
-            key={id}
-            className=" group flex justify-between items-center w-40 h-14 px-4 mb-3 bg-transparent hover:ml-[15px] duration-500"
-          >
-            <a
-              href={href}
-              className="flex justify-between items-center w-full text-white"
-              download={downolad}
-              target="_blank"
-              rel="noreferrer"
+          return (
+            <li
+              key={id}
+              className=" group flex justify-between items-center w-fit h-14 px-4 mb-3 bg-transparent hover:ml-[15px] duration-500"
             >
-              {child}
-            </a>
-          </li>);
+              <a
+                href={href}
+                className="flex justify-between items-center w-full text-white"
+                download={downolad}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            </li>
+          );
         })}
       </ul>
     </div>

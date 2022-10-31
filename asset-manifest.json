@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-Website/static/css/main.1f8282d4.css",
-    "main.js": "/My-Portfolio-Website/static/js/main.f6eaa444.js",
+    "main.css": "/My-Portfolio-Website/static/css/main.3d84e695.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.0536d741.js",
     "static/media/coffeshopImage.jpg": "/My-Portfolio-Website/static/media/coffeshopImage.4230aa5731cc64e8e66d.jpg",
     "static/media/PasswordManagerImage.jpg": "/My-Portfolio-Website/static/media/PasswordManagerImage.df48b6c6c93e38506a63.jpg",
     "static/media/dashboardImage.png": "/My-Portfolio-Website/static/media/dashboardImage.a1f65f7c94a3b63be7f2.png",
@@ -20,11 +20,11 @@
     "static/media/sql.png": "/My-Portfolio-Website/static/media/sql.4676ad983d6bd3e9fac9.png",
     "static/media/javascript.png": "/My-Portfolio-Website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/My-Portfolio-Website/index.html",
-    "main.1f8282d4.css.map": "/My-Portfolio-Website/static/css/main.1f8282d4.css.map",
-    "main.f6eaa444.js.map": "/My-Portfolio-Website/static/js/main.f6eaa444.js.map"
+    "main.3d84e695.css.map": "/My-Portfolio-Website/static/css/main.3d84e695.css.map",
+    "main.0536d741.js.map": "/My-Portfolio-Website/static/js/main.0536d741.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8282d4.css",
-    "static/js/main.f6eaa444.js"
+    "static/css/main.3d84e695.css",
+    "static/js/main.0536d741.js"
   ]
 }

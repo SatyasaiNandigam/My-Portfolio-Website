@@ -7,6 +7,7 @@ import AboutAlt from "./components/AboutAlt";
 import PortfolioAlt from "./components/PortfolioAlt";
 import SkillAlt from "./components/SkillsAlt";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <PortfolioAlt />
         <SkillAlt />
         <ContactUs />
+        <Footer/>
       </div>
       <SocialLinks />
     </div>

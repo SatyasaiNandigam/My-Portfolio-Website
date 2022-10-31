@@ -1,6 +1,6 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from "react";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 
 const links = [
   {
@@ -30,7 +30,18 @@ const NavBarAlt = () => {
   return (
     <div className=" px-4 flex justify-between items-center sticky top-0 z-50  w-full h-16 bg-black text-white">
       <div>
-        <h1 className="text-3xl font-signature ml-2">Satya</h1>
+        <h1 className="text-3xl font-signature ml-2 cursor-pointer">
+          <Link
+            to={"home"}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Satya
+          </Link>
+        </h1>
       </div>
       <div>
         <ul className="hidden md:flex">
@@ -40,7 +51,16 @@ const NavBarAlt = () => {
                 className="px-4 cursor-pointer capitalize font-semibold text-gray-500 hover:text-gray-300 hover:scale-105 duration-200"
                 key={id}
               >
-                <Link to={link} smooth={true} duration={500} spy={true} exact="true" offset={-80}>{link}</Link>
+                <Link
+                  to={link}
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  {link}
+                </Link>
               </li>
             );
           })}
@@ -59,7 +79,17 @@ const NavBarAlt = () => {
                   className="px-4 cursor-pointer capitalize py-6 text-3xl font-bold hover:text-gray-300 hover:scale-105 duration-200"
                   key={id}
                 >
-                  <Link onClick={()=> setIsMenu(!isMenu)} to={link} smooth={true} duration={500} spy={true} exact="true" offset={-80}>{link}</Link>
+                  <Link
+                    onClick={() => setIsMenu(!isMenu)}
+                    to={link}
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                  >
+                    {link}
+                  </Link>
                 </li>
               );
             })}

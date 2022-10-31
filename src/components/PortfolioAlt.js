@@ -38,6 +38,8 @@ const portfolios = [
     id: 4,
     src: PasswordManagerImage,
     Title: "Portfolio Website",
+    Demo: "https://satyasainandigam.github.io/My-Portfolio-Website",
+    Code: "https://github.com/SatyasaiNandigam/My-Portfolio-Website"
 
   },
   

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio-Website/static/css/main.e303af47.css",
+    "main.js": "/My-Portfolio-Website/static/js/main.02863c44.js",
+    "static/media/coffeshopImage.jpg": "/My-Portfolio-Website/static/media/coffeshopImage.4230aa5731cc64e8e66d.jpg",
+    "static/media/PasswordManagerImage.jpg": "/My-Portfolio-Website/static/media/PasswordManagerImage.df48b6c6c93e38506a63.jpg",
+    "static/media/dashboardImage.png": "/My-Portfolio-Website/static/media/dashboardImage.a1f65f7c94a3b63be7f2.png",
+    "static/media/myImg.png": "/My-Portfolio-Website/static/media/myImg.6998b752928a53faa603.png",
+    "static/media/ChatImage.jpg": "/My-Portfolio-Website/static/media/ChatImage.6a9305e5b21106831212.jpg",
+    "static/media/sentiment-icon-20.jpg": "/My-Portfolio-Website/static/media/sentiment-icon-20.cc1b7314baf7172e266a.jpg",
+    "static/media/machinelearning.png": "/My-Portfolio-Website/static/media/machinelearning.71cf5caaa614ef0f3d76.png",
+    "static/media/react.png": "/My-Portfolio-Website/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/C.png": "/My-Portfolio-Website/static/media/C.30e8acff157f8fa06702.png",
+    "static/media/node.png": "/My-Portfolio-Website/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/nextjs.png": "/My-Portfolio-Website/static/media/nextjs.48ddc8121a0fcb543d64.png",
+    "static/media/python.png": "/My-Portfolio-Website/static/media/python.82ab0bdb7e21c02fbe36.png",
+    "static/media/html.png": "/My-Portfolio-Website/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/My-Portfolio-Website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/My-Portfolio-Website/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/sql.png": "/My-Portfolio-Website/static/media/sql.4676ad983d6bd3e9fac9.png",
+    "static/media/javascript.png": "/My-Portfolio-Website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/My-Portfolio-Website/index.html",
+    "main.e303af47.css.map": "/My-Portfolio-Website/static/css/main.e303af47.css.map",
+    "main.02863c44.js.map": "/My-Portfolio-Website/static/js/main.02863c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e303af47.css",
+    "static/js/main.02863c44.js"
+  ]
+}

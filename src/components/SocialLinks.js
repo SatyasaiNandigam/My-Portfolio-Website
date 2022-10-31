@@ -21,7 +21,7 @@ const SocialLinks = () => {
           <FaGithub size={35} className="group-hover:text-blue-400" title="GitHub" aria-label="GitHub" />
         </>
       ),
-      href: "https://github.com/satyasai1709",
+      href: "https://github.com/satyasainandigam",
     },
     {
       id: 3,

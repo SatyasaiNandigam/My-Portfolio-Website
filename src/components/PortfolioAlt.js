@@ -10,27 +10,35 @@ const portfolios = [
     id: 1,
     src: sentimentImage,
     Title: "Sentiment Analysis",
+    Demo: "https://github.com/SatyasaiNandigam/Machine-Learning-Projects/tree/main/Restaurant%20Reviews%20Classification",
+    Code: "https://github.com/SatyasaiNandigam/Machine-Learning-Projects/blob/main/Restaurant%20Reviews%20Classification/Classifier_model.ipynb"
   },
   {
     id: 5,
     src: ChatImage,
     Title: "Chat App",
+    
   },
   {
     id: 2,
     src: dashboardImage,
     Title: "React Dashboard",
+    Demo: "https://satyasainandigam.github.io/React_Dashboard/",
+    Code: "https://github.com/SatyasaiNandigam/React_Dashboard",
   },
   {
     id: 3,
     src: coffeeshopImage,
     Title: "Static Website",
+    Demo: "https://satyasainandigam.github.io/Coffee-Website/",
+    Code: "https://github.com/SatyasaiNandigam/Coffee-Website"
   },
 
   {
     id: 4,
     src: PasswordManagerImage,
-    Title: "Password Manager",
+    Title: "Portfolio Website",
+
   },
   
 ];
@@ -45,14 +53,14 @@ const PortfolioAlt = () => {
 
         {/* portfolio items */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 ">
-          {portfolios.map(({ id, src, Title }) => {
+          {portfolios.map(({ id, src, Title, Demo, Code }) => {
             return (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg w-fit p-2 flex flex-col items-center">
                 <p className="text-center font-semibold p-2">{Title}</p>
-                <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 "/>
+                <a href={Demo} rel="noreferrer" target="_blank"><img src={src} alt="" className="rounded-md cursor-pointer duration-200 hover:scale-105 object-fill "/></a>
                 <div className="flex justify-around items-center w-full mt-auto py-2">
-                  <button className="w-fit text-sm md:text-base duration-200 hover:scale-105">Demo</button>
-                  <button className="w-fit text-sm md:text-base duration-200 hover:scale-105">Code</button>
+                  <a href={Demo} rel="noreferrer" target="_blank" className="w-fit cursor-pointer text-sm md:text-base duration-200 hover:scale-105">Demo</a>
+                  <a href={Code} rel="noreferrer" target="_blank" className="w-fit cursor-pointer text-sm md:text-base duration-200 hover:scale-105">Code</a>
                 </div>
               </div>
             );

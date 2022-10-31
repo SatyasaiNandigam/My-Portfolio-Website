@@ -35,7 +35,7 @@ const SkillsAlt = () => {
     {
       id: 3,
       src: sqlIcon,
-      title: "SQL",
+      title: "MySQL",
       style: "shadow-cyan-700",
     },
     {
